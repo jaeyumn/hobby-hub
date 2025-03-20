@@ -33,7 +33,7 @@ class UserServiceTest @Autowired constructor(
         assertThat(savedUser).isNotNull
         assertThat(savedUser.username).isEqualTo("tester")
         assertThat(savedUser.email).isEqualTo("test@test.com")
-        assertThat(savedUser.password).isEqualTo("test123")
+        assertThat(savedUser.password).isNotEqualTo("test123")
         assertThat(savedUser.role).isEqualTo(Role.ADMIN)
     }
 }
