@@ -1,6 +1,6 @@
 package noul.hobbyhub.user.entity
 
-import entity.BaseEntity
+import noul.hobbyhub.base.entity.BaseEntity
 import jakarta.persistence.*
 import java.util.*
 
