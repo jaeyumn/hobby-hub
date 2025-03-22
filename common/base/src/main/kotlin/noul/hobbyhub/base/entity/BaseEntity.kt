@@ -1,4 +1,4 @@
-package entity
+package noul.hobbyhub.base.entity
 
 import jakarta.persistence.Column
 import jakarta.persistence.MappedSuperclass
